@@ -3,7 +3,7 @@
 # 1. Checking value types with type()
 print("=== Checking Types ===")
 print(type("Vy"))        # string
-print(type(30))          # intergrate 
+print(type(30))          # intergrate
 print(type(3.14))        # float
 print(type(True))        # bool
 
