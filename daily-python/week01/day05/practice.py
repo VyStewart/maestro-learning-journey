@@ -63,3 +63,13 @@ mpg = miles / gas
 
 print(f"You drove {miles} miles using {gas} gallons.")
 print(f"Your gas mileage is {mpg:.2f} miles per gallon.")
+
+# Example 4: Convert study minutes into hours
+
+minutes = input("How many minutes you study today?")
+minutes_num = int(minutes)
+hours = minutes_num / 60
+
+print(f"You studied {minutes_num} minutes today.")
+print(f"That is {hours:.2f} hours of study time.")
+
