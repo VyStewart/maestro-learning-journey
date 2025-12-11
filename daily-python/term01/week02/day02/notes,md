@@ -1,0 +1,34 @@
+Day 02 – Functions II: Return, Print & Early Return
+
+### Concepts Learned
+. A function can print something, return something, or both.
+. print() creates a side effect (shows output but does not return data).
+. return sends a value out of the function, so it can be stored, reused, or modified.
+. A function stops immediately when it hits a return statement.
+. Lines after return will not run (unreachable code).
+. A “side effect” is when the function changes something outside itself (like printing).
+. Pure functions return values; impure functions cause side effects.
+
+### Return vs Print
+. Print(): show something on the screen. Thats it. It is a side affect.
+. Return: sends a value back to the caller, so the code can use it (store it, add to it, print it later....)
+
+### Early return
+Early return stopping the rest of the function when the condition is met. 
+Early retunr is use for:
+. avoiding unnessary work
+. clearer logic
+. simple validation
+
+### Side Effects
+A “side effect” is when a function affects the outside world:
+. printing to the screen
+. modifying a global variable
+. writing to a file
+. sending data elsewhere
+
+Reflection
+. Today I understood deeply how return works and how it differs from print.
+. Early return made function flow much clearer.
+. I learned that functions can have side effects, but pure functions are easier to test and reuse.
+. I feel more confident writing real functions because I know exactly what they return and what they print.
