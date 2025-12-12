@@ -1,5 +1,5 @@
 # Week 1 – Multi-Function Calculator
-
+'''
 # 1. Ask user for minutes and convert to hours
 study_time = input("How many minutes do you study Python per day? ")
 study_time_num = float(study_time)
@@ -31,8 +31,19 @@ remain_cookies_label = "cookie" if remain_cookies == 1 else "cookies"
 
 print(f"You sell {full_box} {full_box_label} and {remain_cookies} {remain_cookies_label}. The leftover is {left_over} {remain_cookies_label} every day.")
 
+'''
+# 3. Ask for a number and check if it's even or odd.
+# a batch = 15 cookies
+cookies = int(input("How many of cookies do we need to bake today? "))
+batched_cookies = cookies // 15
+batched_label = "batches" if batched_cookies != 1 else "batch"
+if batched_cookies % 2 == 0:
+    print(f"You bake {batched_cookies} {batched_label} today. The workload is balanced between both ovens.")
+else:
+    print(f"You bake {batched_cookies} {batched_label} today. One oven needs to handle an extra batch.")
 
-# 3. Ask for a number and check if it's even or odd
+
+
 # 4. Ask for meal cost and calculate tax + tip
 # 5. Show results with rounding and formatting
 

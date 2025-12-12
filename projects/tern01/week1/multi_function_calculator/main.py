@@ -33,3 +33,13 @@ lefover_cookies_label = "cookie" if leftover_cookies == 1 else "cookies"
 
 print(f"You sell {full_box} {full_box_label} and {remain_cookies} {remain_cookies_label} every day."
       f" And the leftover is {leftover_cookies} {lefover_cookies_label}.")
+
+# 3. Ask for a number and check if it's even or odd using batches of cookies need to be backed daily.
+# a batch = 15 cookies
+cookies = int(input("How many of cookies do we need to bake today? "))
+batched_cookies = cookies // 15
+batched_label = "batches" if batched_cookies != 1 else "batch"
+if batched_cookies % 2 == 0:
+    print(f"You bake {batched_cookies} {batched_label} today. The workload is balanced between both ovens.")
+else:
+    print(f"You bake {batched_cookies} {batched_label} today. One oven needs to handle an extra batch.")
