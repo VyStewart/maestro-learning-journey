@@ -25,6 +25,7 @@ total_minutes = minutes_per_batch * batches_per_day
 full_hours = total_minutes // 60
 remain_minutes = total_minutes % 60
 hours_label = "hour" if full_hours == 1 else "hours"
+
 minutes_label = "minute" if remain_minutes == 1 else "minutes"
 
 print(f"You need {full_hours} {hours_label} and {remain_minutes} {minutes_label} to bake {batches_per_day} batches of cookies.")
