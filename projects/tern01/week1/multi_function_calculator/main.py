@@ -1,21 +1,21 @@
 # Week 1 - Multi-Function Calculator
 # Author: Vy S
-# Description: Small tools for daily life (study time, cookies, etc.)
+# Description: A calculator for Bakery Management.
 
-# Description: Small tools for daily life (study time, cookies, etc.)
-"""
-print("----- Study Time Calculator -----")
+#1. Ask for how long does it take to bake a batch of cookies.
+print("----- Baking Time Calculator -----")
 
-study_time = int(input("How many minutes do you spend on studying Python every day? "))
-full_hours = study_time // 60
-remain_minutes = study_time % 60
+minutes_per_batch = int(input("How many minutes do you need to bake one batch of cookies? "))
+batches_per_day = 20
+total_minutes = minutes_per_batch * batches_per_day
+full_hours = total_minutes // 60
+remain_minutes = total_minutes % 60
+hours_label = "hour" if full_hours == 1 else "hours"
+minutes_label = "minute" if remain_minutes == 1 else "minutes"
 
-hour_label = "hour" if full_hours == 1 else "hours"
-minute_label = "minute" if remain_minutes == 1 else "minutes"
+print(f"You need {full_hours} {hours_label} and {remain_minutes} {minutes_label} to bake {batches_per_day} batches of cookies.")
 
-print(f"You study {full_hours} {hour_label} and {remain_minutes} {minute_label} every day.")
 
-"""
 # 2. Ask for cookies per day and estimate per month for a small bakery
 # They can sell cookies by individual or by box ( 9 per box)
 
