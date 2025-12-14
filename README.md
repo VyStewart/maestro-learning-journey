@@ -1,6 +1,7 @@
 # Maestro Learning Journey
 
 Dec 01, 2025 — First Day of School
+
 I created this repo to document my learning progress as an interactive learner in Maestro AI University’s AAS in AI Software Engineering. This space captures my transition into a future AI/UX career. Every folder represents a stage of growth — not just lines of code, but the evolution of how I think, experiment, and build.
 
 📂 Repository Structure
@@ -29,3 +30,7 @@ To grow into a Conversational AI Designer or AI/UX Researcher — combining:
 . AI co-thinking frameworks
 . the technical skills I build throughout this journey
 This repository is the first step in that transformation.
+
+📝Progress Log
+. Week 1: Python basics — variables, booleans, comparisons  
+4- Week 2: Control flow — " if/elif/else ", string membership (in / not in)
