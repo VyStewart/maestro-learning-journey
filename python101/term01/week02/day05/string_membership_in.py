@@ -1,4 +1,4 @@
-### String membership with in/ not in to condiction
+### Lesson: String membership with in/ not in to condiction
 ## Date: 12-13-2025
 
 # Using bool to make decision based on wether a word appears inside a larger string.
