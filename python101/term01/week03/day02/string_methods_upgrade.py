@@ -73,8 +73,6 @@ print(clean_line)
 clean_pieces = clean_line.split(",")
 print(clean_pieces)
 
-clean_pieces = clean_line.split(",")
-
 first = clean_pieces[0].strip()
 second = clean_pieces[1].strip()
 third = clean_pieces[2].strip()
@@ -84,3 +82,22 @@ print(first)
 print(second)
 print(third)
 print(fourth)
+
+# Challenge:
+
+now = " YES, no, , MaYbe"
+
+clean_now = now.replace(", ,", ", UNKNOWN,")
+pieces = clean_now.split(",")
+
+first = pieces[0].strip().lower()
+second = pieces[1].strip().lower()
+third = pieces[2].strip().lower()
+fourth = pieces[3].strip().lower()
+
+print(first)            # yes
+print(second)           # no
+print(third)            # unknown
+print(fourth)           # maybe
+
+
