@@ -33,4 +33,4 @@ This repository is the first step in that transformation.
 
 📝Progress Log
 . Week 1: Python basics — variables, booleans, comparisons  
-4- Week 2: Control flow — " if/elif/else ", string membership (in / not in)
+. Week 2: Control flow — " if/elif/else ", string membership (in / not in)
