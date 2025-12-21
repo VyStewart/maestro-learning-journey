@@ -1,12 +1,12 @@
 ### Date: 12-18-2025
-## Day 4 — Mastering List Iteration & Common List Methods
+## Day 4 — Mastering List Iteration & Common List Methods & 
 
 Key Concepts Learned
 .Lists can be traversed using index-based or value-based loops
 .Index-based loops iterate over positions in a list
 .Value-based loops iterate directly over list values
 .Lists are mutable, allowing items to be added, removed, or modified
-,Common list methods support controlled list modification
+.Common list methods support controlled list modification
 
 Important Rules to Remember
 Iteration
