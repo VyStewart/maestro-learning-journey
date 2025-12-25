@@ -1,4 +1,7 @@
-# Week 01 Scratchpad – Experiments, Mistakes & Debugging Thoughts
+# Week 01 
+
+## Experiments, Mistakes & Debugging Thoughts
+
 This file holds all my raw discoveries, mistakes, fixes, and experiments from Week 1.  
 Not polished — just real learning moments.
 
