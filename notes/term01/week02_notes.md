@@ -1,4 +1,4 @@
-## Control Flow, Logic, and Iteration (No Code)
+## Control Flow, Logic, and Iteration
 
 ## Week 02 Focus
 
