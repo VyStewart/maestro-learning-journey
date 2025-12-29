@@ -73,4 +73,5 @@ Important Rules to Remember
 - Be cautious when mutating data inside loops
 
 Short Reflection
+
 Week 3 helped me shift from simple data handling to structured, intentional data manipulation. I learned how mutation, iteration, and copying interact, and why safe practices matter when working with real-world data. I now think more deliberately about how data changes over time.
