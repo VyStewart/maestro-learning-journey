@@ -70,26 +70,26 @@ exit()   # or quit()
 
 My Thoughts: 
 Noted: input() always returns a string!
-. Practiced converting input before calculations.
-. Built:
+- Practiced converting input before calculations.
+- Built:
  . cookie counter
  . gas mileage calculator
  . study minutes → hours converter
 
 Traceback Insights
-. Tracebacks are actually helpful.
-. They point directly to the problem line.
-. TypeError is the most common mistake in Week 1.
+- Tracebacks are actually helpful.
+- They point directly to the problem line.
+- TypeError is the most common mistake in Week 1.
 
 Personal Debugging Rules I Learned
-. Check type() when unsure.
-. Convert BEFORE doing math.
-. Reread error messages slowly.
-. Look at the exact line number.
-. Don't panic — errors are normal.
+- Check type() when unsure.
+- Convert BEFORE doing math.
+- Reread error messages slowly.
+- Look at the exact line number.
+- Don't panic — errors are normal.
 
 End of Week Thoughts
-. Errors don’t scare me anymore.
-. Typing code feels natural.
-. My GitHub structure looks clean and professional.
-. Ready to build two projects for Week 1.
+- Errors don’t scare me anymore.
+- Typing code feels natural.
+- My GitHub structure looks clean and professional.
+- Ready to build two projects for Week 1.

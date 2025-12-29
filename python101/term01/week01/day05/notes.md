@@ -33,15 +33,15 @@ year_str = str(2025)
 User Input (input())
 
 I learned that:
-. input() always returns a string, no matter what the user types.
-. To do math with input, I must convert it:
+- input() always returns a string, no matter what the user types.
+- To do math with input, I must convert it:
 
 num = int(input("Enter a number: "))
 price = float(input("Enter a price: "))
 
 Reflection
-. Today I learned how to make Python programs interactive.
-. Understanding types and conversions makes me feel more confident
+- Today I learned how to make Python programs interactive.
+- Understanding types and conversions makes me feel more confident
  because I now understand why errors happen and how to fix them.
-. Learning input() also made Python feel more “alive,”
+- Learning input() also made Python feel more “alive,”
  because my program can finally talk to the user.

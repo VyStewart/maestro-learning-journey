@@ -22,10 +22,10 @@ def study(hours):
 
 ## Scope Rules & Clean Pattern
 Key rules:
-. Local variables are created inside a function and disappear when the function ends.
-. Global variables live outside functions and can be read inside (unless a local variable with the same name exists).
-. Assigning to a variable inside a function makes it local by default.
-. Best practice: pass in values, compute, return the result.
+- Local variables are created inside a function and disappear when the function ends.
+- Global variables live outside functions and can be read inside (unless a local variable with the same name exists).
+- Assigning to a variable inside a function makes it local by default.
+- Best practice: pass in values, compute, return the result.
 
 ## UnboundLocalError with Global Names
 Problem scenario:
@@ -41,14 +41,14 @@ This causes:
 UnboundLocalError: local variable 'value' referenced before assignment
 
 Because:
-. Python sees value = 10 and treats value as a local variable.
-. It then tries to evaluate y = x + value before the local value is assigned.
-. The global value is ignored inside the function once Python decides value is local.
+- Python sees value = 10 and treats value as a local variable.
+- It then tries to evaluate y = x + value before the local value is assigned.
+- The global value is ignored inside the function once Python decides value is local.
 
 Fix options (conceptually):
-. Read only the global value (remove the local assignment), or
-. Assign the local variable before using it, or
-. Use the clean pattern: pass values in and return results instead of modifying globals.
+- Read only the global value (remove the local assignment), or
+- Assign the local variable before using it, or
+- Use the clean pattern: pass values in and return results instead of modifying globals.
 
 ## Nested Scope (Enclosing Function)
 
@@ -81,8 +81,8 @@ These comparisons are the building blocks for if conditions.
 
 ### Reflection
 Today I learned how scope affects where variables can be seen and used.
-. I understand that local variables are safer and cleaner for function logic.
-. I saw how local variables can shadow global ones without changing them.
-. I understand that assigning inside a function can cause UnboundLocalError if not done carefully.
-. Previewing if/else and comparison operators feels easier now because I already understand how functions flow and return values.
+- I understand that local variables are safer and cleaner for function logic.
+- I saw how local variables can shadow global ones without changing them.
+- I understand that assigning inside a function can cause UnboundLocalError if not done carefully.
+- Previewing if/else and comparison operators feels easier now because I already understand how functions flow and return values.
 
