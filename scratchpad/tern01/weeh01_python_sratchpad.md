@@ -34,7 +34,6 @@ Fix:
 
 exit()   # or quit()
 
-
 ## Print Tests
 - Tried printing with commas vs plus.
 - Learned `print("Hi" + 5)` → TypeError.
@@ -69,6 +68,7 @@ exit()   # or quit()
   int("25") + float("4.5") + 3
 
 My Thoughts: 
+
 Noted: input() always returns a string!
 - Practiced converting input before calculations.
 - Built:
