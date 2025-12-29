@@ -19,6 +19,7 @@ remain_minutes = int(study_time) % 60
 print(f"You study {full_hours} hours and {remain_minutes} minutes a day.")
 
 """
+"""
 minutes_per_batch = int(input("How many minutes do you need to bake one batch of cookies? "))
 batches_per_day = 20
 total_minutes = minutes_per_batch * batches_per_day
@@ -29,7 +30,7 @@ hours_label = "hour" if full_hours == 1 else "hours"
 minutes_label = "minute" if remain_minutes == 1 else "minutes"
 
 print(f"You need {full_hours} {hours_label} and {remain_minutes} {minutes_label} to bake {batches_per_day} batches of cookies.")
-"""""
+""
 # 2. Ask for cookies per day and estimate per month for a small bakery
 # They can sell cookies by individual or by box ( 9 per box)
 
@@ -44,6 +45,7 @@ remain_cookies_label = "cookie" if remain_cookies == 1 else "cookies"
 
 print(f"You sell {full_box} {full_box_label} and {remain_cookies} {remain_cookies_label}. The leftover is {left_over} {remain_cookies_label} every day.")
 
+""
 # 3. Ask for a number and check if it's even or odd.
 # a batch = 15 cookies
 cookies = int(input("How many of cookies do we need to bake today? "))
@@ -60,3 +62,21 @@ else:
 # 5. Show results with rounding and formatting
 
 """
+
+# Simple Bill Calculator
+
+each_cookie = 2.49
+quantity = 20
+tax_rate = 0.085  # 8.5% tax
+quantity_label = "cookie" if quantity == 1 else "cookies"
+
+bill_amount = each_cookie * quantity
+tax_amount = bill_amount * tax_rate
+total_bill = bill_amount + tax_amount
+
+print("----- Cookie Bill -----")
+print ("Price per cookie:","$",round(each_cookie, 2))
+print(f"Quantity: {quantity} {quantity_label}")
+print(f"Subtotal: ${bill_amount:.2f}")
+print(f"Tax (8.5%): ${tax_amount:.2f}")
+print("Total Bill:","${:.2f}".format(total_bill))
