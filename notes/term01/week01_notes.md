@@ -90,7 +90,7 @@ This is normal behavior and helps Python stay consistent with numeric types.
 I learned that Python allows me to perform math directly inside an f-string, or I can assign the results to variables first to make my code cleaner and easier to read.
 
 Example:
-```python
+
 # Direct math inside print()
 print("Row:", 28 // 6, "Leftover:", 28 % 6)
 
