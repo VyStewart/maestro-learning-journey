@@ -31,7 +31,7 @@ Symptoms:
 - Terminal only showed `>>>`  
 
 Fix:
-```python
+
 exit()   # or quit()
 
 
