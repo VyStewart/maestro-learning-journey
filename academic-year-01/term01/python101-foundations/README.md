@@ -1,9 +1,9 @@
 # Python 101 — Foundations
 
-**Course:** Python Foundations
-**Program:** Bachelor of Science in Computer Science
-**Pathway:** Business & Artificial Intelligence
-**Term:** Academic Year 01 · Term 01
+# Course: Python Foundations
+# Program: Bachelor of Science in Computer Science
+# Pathway: Business & Artificial Intelligence
+# Term: Academic Year 01 · Term 01
 
 ---
 
@@ -23,11 +23,13 @@ Python serves as the primary instructional language in this term and continues t
 
 ## 🗂️ Folder Structure
 
+```
 python101-foundations/
 ├── week01/
 ├── week02/
 ├── week03/
 └── weekly-projects/
+```
 
 ### Folder Breakdown
 
