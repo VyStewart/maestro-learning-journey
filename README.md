@@ -22,7 +22,6 @@ This repository serves as both:
 
 The repository follows a consistent, academic-first structure:
 
-```
 academic-year-01/
 └── term01/
     ├── python101-foundations/
@@ -32,7 +31,6 @@ academic-year-01/
     │   └── weekly-projects/
     ├── notes/
     └── scratchpad/
-```
 
 ### Structure Principles
 
