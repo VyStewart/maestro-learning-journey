@@ -1,7 +1,7 @@
 # Maestro Learning Journey
 
-# Bachelor of Science in Computer Science**
-# Business & Artificial Intelligence Pathway**
+- Bachelor of Science in Computer Science**
+- Business & Artificial Intelligence Pathway**
 
 ---
 
