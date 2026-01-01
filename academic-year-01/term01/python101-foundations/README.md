@@ -1,7 +1,7 @@
 # Python 101 — Foundations
 
-### Course: Python Foundations
-### Program: Bachelor of Science in Computer Science
+**Course:** Python Foundations
+**Program:** Bachelor of Science in Computer Science
 ### Pathway: Business & Artificial Intelligence
 ### Term: Academic Year 01 · Term 01
 
