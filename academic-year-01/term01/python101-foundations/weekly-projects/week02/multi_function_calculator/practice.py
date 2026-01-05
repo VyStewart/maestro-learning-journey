@@ -1,5 +1,5 @@
 
-# Create the function to calculate daily baking time:
+# Tool 01: Create the function to calculate daily baking time:
 def baking_time_calculator():
     print("------ Baking Time Calculator--------")
    
@@ -23,9 +23,9 @@ def baking_time_calculator():
     print(f"You need {hours} {hours_label} and {minutes} {minutes_label}" 
           f" to bake {batches_per_day} batches of cookies on daily schedule.")
         
-baking_time_calculator()    
+#baking_time_calculator()    
     
-# Create the function to calculate daily inventory calculator
+# Tool02: Create the function to calculate daily inventory calculator
 def daily_inventory_calculator():
     print("\n-----------Daily Inventory Calculator-------------")
     
@@ -51,9 +51,9 @@ def daily_inventory_calculator():
            f"and {remain_cookies} {remain_cookies_label}. "
             f"And lefover is {leftover} {leftover_label}. ")
         
-daily_inventory_calculator()
+#daily_inventory_calculator()
 
-#Create the function to check ovens workload,
+# Tool03: Create the function to check ovens workload,
 def check_oven_workload():
     print("\n---------Check Ovens Workload----------")
     
@@ -95,4 +95,60 @@ def check_oven_workload():
                 f"But one oven will bake one extra batch. "
                 )
        
-check_oven_workload()
+#check_oven_workload()
+
+# Tool 04: Create the function for Receipt Calculator
+def bill_calculator(cookie, price, quantity):
+    tax_rate = 0.085
+    
+    if price <= 0 or quantity <= 0:
+        message = "Error: Price and quantinty value need to be greater than zeto"
+        return message
+    
+    subtotal = price * quantity
+    tax = subtotal * tax_rate
+    total = subtotal + tax    
+  
+    receipt = f"""
+    Cookie      : {cookie}
+    Price       : ${price:.2f}
+    Quantity    : {quantity}   
+    Subtotal    : ${subtotal:.2f}
+    Tax         : ${tax:.2f}
+    Total       : ${total:.2f}
+    """
+    return receipt
+    
+result = bill_calculator("Red Velvet", 2.45, 5)
+#print("\n---------Receippt----------")
+#print(result)
+
+# Tool 05: Create the function for Weekly Baking Planner 
+def weekly_baking_planner():
+    print("\n---------Weekly Baking Schedule (7 Days)-----------")
+    
+    one_batch = 18
+    total_cookies = 0
+    total_batches = 0
+    
+    for day in range(1, 8):
+        cookies = int(input(f"Day {day}: how many cookies do you bake? "))
+        if cookies <= 0:
+            print("Error: Cookies value needs to be greater than zero.")
+            continue
+        
+        total_cookies += cookies
+        today_batches = cookies // one_batch
+        total_batches += today_batches
+        
+        cookies_label = "cookie" if total_cookies == 1 else "cookies"
+        batches_label = "batch" if total_batches == 1 else "batches"
+ 
+    daily_cookies = round(total_cookies / 7)
+    daily_label = "cookies"
+    
+    print (
+      f"\nTotal cookies baked this week: {total_cookies} {cookies_label}."
+      f"\nTotal batches baked this week: {total_batches} {batches_label}."
+      f"\nAverage cookies per day: {daily_cookies} {daily_label}."
+      )              
