@@ -7,7 +7,7 @@
 
 ## 📘 Overview
 
-This repository documents my academic journey through a **Bachelor of Science in Computer Science (Business & AI pathway)**.
+This repository documents my academic journey through the **Bachelor of Science in Computer Science (Business & AI pathway)**.
 
 It is organized to reflect a real university program, with coursework structured by **academic year, term, course, and week**. Each folder represents not just completed work, but the progression of my technical thinking, problem-solving approach, and software design skills over time.
 
