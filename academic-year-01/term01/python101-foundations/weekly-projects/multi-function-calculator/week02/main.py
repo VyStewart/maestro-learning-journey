@@ -10,13 +10,13 @@ from practice import weekly_baking_planner
 
 def print_menu():
     print(
-        f"\n-----Bakery Tool Menu-------"
-        f"\n1. Baking Time Calculator"
-        f"\n2. Daily Inventory Calculator"
-        f"\n3. Check Oven Workload"
-        f"\n4. Receipt Calculator"
-        f"\n5. Weekly Baking Planner"
-        f"\nQ. Quit"     
+        "\n-----Bakery Tool Menu-------"
+        "\n1. Baking Time Calculator"
+        "\n2. Daily Inventory Calculator"
+        "\n3. Check Oven Workload"
+        "\n4. Receipt Calculator"
+        "\n5. Weekly Baking Planner"
+        "\nQ. Quit"     
     )
     
 def show_menu():

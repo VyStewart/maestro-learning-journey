@@ -5,8 +5,8 @@
 
 # Example: 
 
-def to_celsius(fehenheit):
-    return (fehenheit -32) * 5 / 9
+def to_celsius(fehrenheit):
+    return (fehrenheit -32) * 5 / 9
 
 # Adding docstring
 def to_celsius(fahrenheit):
