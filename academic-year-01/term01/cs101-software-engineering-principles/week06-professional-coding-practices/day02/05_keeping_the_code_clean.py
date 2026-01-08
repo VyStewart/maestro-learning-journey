@@ -1,6 +1,6 @@
 ### CS101 - Week 06
 ### Software Engineering Principles
-### Lesson 05: Keeping the code clean
+### Lesson 05: Keeping The Code Clean
 ### Date: Jan 06 2026
 
 ## Code formatting matters in Python 

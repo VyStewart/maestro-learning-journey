@@ -1,6 +1,6 @@
 ### CS101 - Week 06
 ### Software Engineering Principles
-### Lesson 04: Writing comments with real purpose
+### Lesson 04: Writing Comments With Real Purpose
 ### Date: Jan 06 2026
 
 # Example 

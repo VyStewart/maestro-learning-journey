@@ -1,6 +1,6 @@
 ### CS101 - Week 06
 ### Software Engineering Principles
-### Lesson 07: Turing long scrips into sharp functions
+### Lesson 07: Turning Long Scripts Into Sharp Functions
 ### Date: Jan 06 2026
 
 # Example
@@ -44,8 +44,8 @@ def print_summary(name, age, group):
    )
 
 def get_user_info():
-       name = input("Enter your name: ")
-       age = int(input("Enter your age: "))
+       name = input("\nEnter your name: ")
+       age = int(input("\nEnter your age: "))
        return name, age                
 
 def get_age_group(age):
@@ -56,16 +56,24 @@ def get_age_group(age):
     elif age < 65:
         return "adult"   
     else:
-        return "senior"
+        return "senior"        
 
+
+def ask_favorite_color():
+    return input("\nEnter your favorite color: ")
+    
+def years_into_100(age):
+    return 100 - age
+    
 name, age = get_user_info()
 group =  get_age_group(age)
+    
+favorite_color = ask_favorite_color()
+
+year_left = years_into_100(age)
+year_label = "year" if year_left == 1 else "years"
+
 print_summary(name, age, group)
-
-favorite_color = input("Enter your favorite color: ")
 print(f"Nice, {name}! I like {favorite_color} too.")
-
-years_to_100 = 100 - age
-print(name, "will turn 100 in", years_to_100, "years.")
-
+print(name, "will turn 100 in", year_left, year_label)
 print(f"Good bye, {name}!")

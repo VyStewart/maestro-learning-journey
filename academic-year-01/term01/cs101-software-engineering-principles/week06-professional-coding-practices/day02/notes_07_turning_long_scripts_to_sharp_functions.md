@@ -1,6 +1,6 @@
 ### CS101 - Week 06
 ### Software Engineering Principles
-### Lesson 07: Turning long scripts into sharp functions
+### Lesson 07: Turning Long Scripts Into Sharp Functions
 ### Date: Jan 06 2026
 
 Core Principle:
