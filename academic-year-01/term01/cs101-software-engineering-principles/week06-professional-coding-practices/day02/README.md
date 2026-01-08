@@ -1,6 +1,6 @@
 ### CS101 - Week 06
 ### Software Engineering Principles
-### Day 02: Lesson 03 to Lesson 07
+### Day 02: Lesson 04 to Lesson 07
 ### Date: Jan 06 2026
 
 # Professional Coding Practices
@@ -12,7 +12,7 @@ This folder contains all lessons and practice files for **Day 02**, focusing on 
 
 ## Lessons Overview
 
-### Lesson 03 – Writing Comments with Purpose
+### Lesson 04 – Writing Comments with Purpose
 
 **File:** `04_writing_comments_with_purpose.py`
 
@@ -26,7 +26,7 @@ This lesson focuses on *why* we write comments, not just *how*.
 
 ---
 
-### Lesson 04 – Keeping the Code Clean
+### Lesson 05 – Keeping the Code Clean
 
 **File:** `05_keeping_the_code_clean.py`
 
@@ -40,7 +40,7 @@ This lesson introduces clean coding habits that improve readability.
 
 ---
 
-### Lesson 05 – Making Code Readable
+### Lesson 06 – Making Code Readable
 
 **File:** `06_making_code_readable.py`
 
@@ -54,7 +54,7 @@ This lesson focuses on making code easy for other humans (and future you) to und
 
 ---
 
-### Lesson 06 – Turning Long Scripts into Sharp Functions
+### Lesson 07 – Turning Long Scripts into Sharp Functions
 
 **File:** `07_turning_long_scripts_to_sharp_functions.py`
 
@@ -76,7 +76,7 @@ This lesson demonstrates how to refactor a long script into smaller, reusable fu
 
 ---
 
-### Lesson 07 – Applying Professional Structure
+**Applying Professional Structure**
 
 **Files:**
 
