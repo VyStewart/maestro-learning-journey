@@ -58,7 +58,6 @@ def get_age_group(age):
     else:
         return "senior"        
 
-
 def ask_favorite_color():
     return input("\nEnter your favorite color: ")
     
