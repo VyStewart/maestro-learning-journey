@@ -1,7 +1,7 @@
 ### CS101 - Week 06
 ### Software Engineering Principles
 ### Lesson 09: Using Invariants as Safety Checkpoints
-### Date: Jan 08 2026
+### Date: Jan 07 2026
 
 ## invariant check using assert.
 ## assert infore the rules ad crash early if the rules're broken

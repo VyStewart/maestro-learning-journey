@@ -1,7 +1,7 @@
 ### CS101 - Week 06
 ### Software Engineering Principles
 ### Lesson 08: Following Program Flow With Print Tracing
-### Date: Jan 08 2026
+### Date: Jan 07 2026
 
 # tracing function entry and exit
 

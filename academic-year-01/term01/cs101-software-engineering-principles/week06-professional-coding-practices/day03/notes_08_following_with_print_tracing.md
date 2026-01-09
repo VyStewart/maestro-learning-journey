@@ -1,7 +1,7 @@
 ### CS101 - Week 06
 ### Software Engineering Principles
 ### Lesson 08: Following Program Flow With Print Tracing
-### Date: Jan 08 2026
+### Date: Jan 07 2026
 
 Core Principle:
 Print tracing is a technique used to make program execution visible, allowing developers to observe control flow, decision paths, and repetition step by step.

@@ -1,7 +1,7 @@
 ### CS101 - Week 06
 ### Software Engineering Principles
 ### Lesson 09: Using Invariants as Safety Checkpoints
-### Date: Jan 08 2026
+### Date: Jan 07 2026
 
 Core Principle:
 An invariant is a condition that must always be true at a specific point in a program. Invariants act as safety checkpoints that help developers reason about correctness as code executes and state changes.
