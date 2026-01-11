@@ -4,8 +4,8 @@
 ### Date: Jan 08 2026
 
 # Function with return
-def double(number):
-    result = number * 2
+def double(num):
+    result = num * 2
     return result
 
 value = double(5)
@@ -22,7 +22,7 @@ print("\nCalling double_print:")
 a = double_print(9)
 print("a is:", a)
 
-print("C\nCalling double_return:")
+print("\nCalling double_return:")
 b = double_return(9)
 print("b is:", b)
 
@@ -51,7 +51,7 @@ final_total = add_tax(apply_discount(100, 10), 0.07)
 print(final_total)
 
 # Challenge:
-# Create the function to convert Fahrenheit to Kevin
+# Create the function to convert Fahrenheit to Kelvin
 
 def to_celsius(fahrenheit):
     """
