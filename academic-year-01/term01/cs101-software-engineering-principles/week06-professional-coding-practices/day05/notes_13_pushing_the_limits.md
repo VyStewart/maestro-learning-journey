@@ -1,6 +1,6 @@
 ## CS101 - Week 06
 ## Software Engineering Principles
-## Lesson 12: Pusing the limits
+## Lesson 13: Pusing the limits
 ## Date: Jan 10 2026
 
 Core Principle:

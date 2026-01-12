@@ -1,6 +1,6 @@
 ### CS101 - Week 06
 ### Software Engineering Principles
-### Lesson 12: Pushing the limits
+### Lesson 13: Pushing the limits
 ### Date: Jan 10 2026
 
 # Choosing < vs <=
