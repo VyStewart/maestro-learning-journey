@@ -4,7 +4,7 @@
 ### Date: Jan - 14 - 2026
 
 **Core Focus**
-Using numbers and indentation in pseudocode to represent execution order and logical hierarchy before coding.
+- Using numbers and indentation in pseudocode to represent execution order and logical hierarchy before coding.
 
 **Key Concepts**
 - Pseudocode should reflect both sequence and structure.
@@ -27,7 +27,7 @@ Using numbers and indentation in pseudocode to represent execution order and log
 - If indentation is unclear, stop and fix the plan before coding.
 
 **Key Takeaway**
-If the hierarchy is unclear in pseudocode, it will be unclear—and likely wrong—in code.
+- If the hierarchy is unclear in pseudocode, it will be unclear—and likely wrong—in code.
 
 **Short Reflection**
-This lesson helped me see why some bugs feel invisible while coding. Without clear hierarchy, I may understand the steps but misplace them logically. Using numbers and indentation forces me to slow down, see scope clearly, and write code that follows the intended structure instead of guessing.
+- This lesson helped me see why some bugs feel invisible while coding. Without clear hierarchy, I may understand the steps but misplace them logically. Using numbers and indentation forces me to slow down, see scope clearly, and write code that follows the intended structure instead of guessing.
