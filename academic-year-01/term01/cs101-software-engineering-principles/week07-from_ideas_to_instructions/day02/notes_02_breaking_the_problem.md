@@ -26,7 +26,7 @@
 - Each step represents a concrete action the program must perform.
 - Do not code until the steps are clear and complete.
 
-3. utput Alignment Rule
+3. Output Alignment Rule
 - The program’s final output must correspond to the final step.
 - Misalignment indicates:
     - A missing step

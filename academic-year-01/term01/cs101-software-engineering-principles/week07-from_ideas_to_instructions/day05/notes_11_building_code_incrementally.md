@@ -17,7 +17,8 @@
 - Print
 - Edit
 - Run
-Repeat until the program behaves correctly.
+
+ Repeat until the program behaves correctly.
 
 **Why This Works**
 - Reduces debugging complexity

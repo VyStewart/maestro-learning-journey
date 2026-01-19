@@ -27,7 +27,7 @@
 - Early validation prevents deeper logic errors.
 
 **Key Takeaway**
-Correct code starts with correct rules. If the rules are unclear, the logic will be fragile.
+- Correct code starts with correct rules. If the rules are unclear, the logic will be fragile.
 
 **Short Reflection**
-This lesson helped me see code as a system of decisions rather than a sequence of calculations. By identifying rules first and then translating them into control flow, I gain more control over program behavior and reduce hidden bugs. It also explains why some programs “work” but still feel wrong—the rules were never clearly enforced.
+- This lesson helped me see code as a system of decisions rather than a sequence of calculations. By identifying rules first and then translating them into control flow, I gain more control over program behavior and reduce hidden bugs. It also explains why some programs “work” but still feel wrong—the rules were never clearly enforced.

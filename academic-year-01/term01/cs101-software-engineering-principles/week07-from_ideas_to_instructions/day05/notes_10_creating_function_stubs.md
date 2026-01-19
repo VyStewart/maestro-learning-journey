@@ -20,10 +20,11 @@
 - Define the function
 - Call the function
 - Trace execution using print to confirm the control flow and data movement
+
 This quickly detects naming, calling, and flow issues before real logic is written.
 
 **Key Takeaway**
--Build the skeleton first. Once the structure runs, adding correct logic becomes straightforward and controlled.
+- Build the skeleton first. Once the structure runs, adding correct logic becomes straightforward and controlled.
 
 **Short Reflection**
-This lesson showed me how to reduce debugging pressure by proving the program structure works before implementing details. Using stubs and trace prints turns uncertainty into a checklist: define it, call it, confirm the flow—then fill in logic with confidence.
+- This lesson showed me how to reduce debugging pressure by proving the program structure works before implementing details. Using stubs and trace prints turns uncertainty into a checklist: define it, call it, confirm the flow—then fill in logic with confidence.
