@@ -1,5 +1,5 @@
 ### CS101:  Software Engineering Principles
-### Week07: From ideas to instruction
+### Week 07: From ideas to instruction
 ## Lesson 15: Demonstrating the working app
 ### Date: Jan 18 - 2026
 

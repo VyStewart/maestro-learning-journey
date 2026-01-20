@@ -1,5 +1,5 @@
 ### CS101:  Software Engineering Principles
-### Week07: From ideas to instruction
+### Week 07: From ideas to instruction
 ## Lesson 12: Creating test tables for pseudocode plans
 ### Date: Jan 17 - 2026
 
