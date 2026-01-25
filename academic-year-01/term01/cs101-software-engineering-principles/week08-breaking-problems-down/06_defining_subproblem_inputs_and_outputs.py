@@ -33,6 +33,3 @@ def celsius_to_fahrenheit(celsius):
 
 result = celsius_to_fahrenheit("twenty")
 print(result)
-
-
-
