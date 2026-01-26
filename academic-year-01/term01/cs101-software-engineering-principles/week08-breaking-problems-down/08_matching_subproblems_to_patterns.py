@@ -1,7 +1,7 @@
 ### CS101:  Software Engineering Principles
 ### Week 08: Breaking Down the probles
 ### Lesson 08: Matching subroblems to patterns
-### Date: Jan 23 - 2026
+### Date: Jan 25 - 2026
 
 ## Most subproblems fit into a small set of patterns 
 ## Pattern is a coomon "shape" of code that sloves a common type of mini problem
@@ -95,7 +95,3 @@ if has_zero:
     print("At least one score was 0")        
 else:
     print("No zero scores")
-
-
-
-
