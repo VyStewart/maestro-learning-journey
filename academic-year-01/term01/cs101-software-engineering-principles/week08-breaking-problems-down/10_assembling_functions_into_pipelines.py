@@ -1,5 +1,5 @@
 ### CS101:  Software Engineering Principles
-### Week 08: Breaking Down the probles
+### Week 08: Breaking problems down
 ### Lesson 10: Assembling functions into pipelines
 ### Date: Jan 25 - 2026
 

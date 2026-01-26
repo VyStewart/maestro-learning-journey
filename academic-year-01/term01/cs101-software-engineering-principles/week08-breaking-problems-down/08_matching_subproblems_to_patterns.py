@@ -1,5 +1,5 @@
 ### CS101:  Software Engineering Principles
-### Week 08: Breaking Down the probles
+### Week 08: Breaking problems down
 ### Lesson 08: Matching subroblems to patterns
 ### Date: Jan 25 - 2026
 

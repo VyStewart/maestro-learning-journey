@@ -1,5 +1,5 @@
 ### CS101:  Software Engineering Principles
-### Week 08: Breaking Down the probles
+### Week 08: Breaking problems down
 ## Lesson 05: Breaking down into subproblem
 ### Date: Jan 22 - 2026
 
