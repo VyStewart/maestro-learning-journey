@@ -5,8 +5,8 @@ _________________________________________________
 
 **Slicing using Index**
 - slicing format: letters[start : stop : step]
-- step controls skipping patterns (every 2nd element)
-- to skip a specific index, combines slices
+- step controls skipping patterns (e.g every 2nd element)
+- to skip a specific index, combine slices
 - List holds characters ["c", "a", "s", "h"]
 - Strings are immutable
 - "".join() = "glue list of string into string"
