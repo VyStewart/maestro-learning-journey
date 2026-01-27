@@ -18,7 +18,7 @@ print(letters[1:5])
 
 # Using "".join() to convert list to WORD
 
-print("\nCovert Lists to Words")
+print("\nConvert Lists to Words")
 print("".join(letters[0:1] + letters[2:5]))
 print("".join(letters[3:]))
 print("".join(letters[1:5]))
