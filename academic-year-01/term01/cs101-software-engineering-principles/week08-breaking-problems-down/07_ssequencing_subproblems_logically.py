@@ -1,5 +1,5 @@
 ### CS101:  Software Engineering Principles
-### Week 08: Breaking Down the probles
+### Week 08: Breaking problems down
 ## Lesson 07: Sequencing subproblems logically
 ### Date: Jan 22 - 2026
 
