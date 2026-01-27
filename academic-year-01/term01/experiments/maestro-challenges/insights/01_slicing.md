@@ -4,10 +4,15 @@
 _________________________________________________
 
 **Slicing using Index**
+- slicing format: letters[start : stop : step]
+- step controls skipping patterns (every 2nd element)
+- to skip a specific index, combines slices
 - List holds characters ["c", "a", "s", "h"]
 - Strings are immutable
 - "".join() = "glue list of string into string"
 - split() = string to list
+
+Use: letters[0:1] + letters[2:5] to skip index 1
 __________________________________________________
 
 **Example**
