@@ -4,7 +4,7 @@
 
 # Slicing using index
 """
-Task: write one-line sclice expressions that print these three words
+Task: write one-line slice expressions that print these three words
 - 'cash'
 - 'shed'
 - 'rash'
@@ -18,7 +18,7 @@ print(letters[0:1] + letters[2:5])
 print(letters[3:])
 print(letters[1:5])
 
-print("\nUsing "".join() to convert Lists to Words")
+print('\nUsing "".join() to convert Lists to Words')
 print("".join(letters[0:1] + letters[2:5]))
 print("".join(letters[3:]))
 print("".join(letters[1:5]))
