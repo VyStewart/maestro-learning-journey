@@ -11,10 +11,10 @@ But: skip any number that ends with a 4 (like 34, 74, etc).
 start = 20
 end = 100
 limit = 10
-numbers = []
 
 # for loop
 count = 0
+numbers = []
 
 for num in range(start, end +1):
     if num % 10 == 4:
@@ -36,6 +36,7 @@ print(
 # while loop
 n_count = 0
 n = start
+list_numbers = []
 
 while n <= end:
     if n % 10 == 4:
@@ -45,7 +46,7 @@ while n <= end:
     if n % 7 == 0:
         n_count += 1
         
-        numbers.append(n)
+        list_numbers.append(n)
         
     n += 1
     
@@ -54,5 +55,5 @@ while n <= end:
       
 print(
     f"\nMultiples of 7 found:{n_count}"
-    f"\nNumbers of multiples of 7 are: {numbers}"
+    f"\nNumbers of multiples of 7 are: {list_numbers}"
 )
