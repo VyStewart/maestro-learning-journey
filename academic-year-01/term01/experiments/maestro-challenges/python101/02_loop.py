@@ -4,15 +4,20 @@
 
 # for and while loop
 '''
-Task: Print out all multiples of 7 between 20 and 110 (inclusive).
+Task: Print out all multiples of 7 between 20 and 100 (inclusive).
 But: skip any number that ends with a 4 (like 34, 74, etc).
 '''
+
+start = 20
+end = 100
+n = start
+limit = 10
 
 # for loop
 count = 0
 numbers = []
 
-for num in range(20, 111):
+for num in range(start, end +1):
     if num % 10 == 4:
         continue
     
@@ -20,27 +25,32 @@ for num in range(20, 111):
         count += 1
         
         numbers.append(num)
+    
+    if count > limit:
+        break         
         
 print(
     f"Multiples of 7 found: {count}"
-    f"\nNumbers of multiples of 7 found: {numbers}"
+    f"\nNumbers of multiples of 7 are: {numbers}"
 )
 
 # while loop
-count = 0
-number = 20
-
-while number < 201:
-    if number % 10 == 4:
-        number += 1
+while n <= end:
+    if n % 10 == 4:
+        n += 1
         continue
     
-    if number % 7 == 0:
+    if n % 7 == 0:
         count += 1
         
-    number += 1
+        numbers.append(n)
+        
+    n += 1
     
-    if count > 15:
+    if count > limit:
         break         
       
-print("\nMultiples of 7 found:", count)
+print(
+    f"\nMultiples of 7 found:{count}"
+    f"\nNumbers of multiples of 7 are: {numbers}"
+)
