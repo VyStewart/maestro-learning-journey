@@ -9,7 +9,7 @@ But: skip any number that ends with a 4 (like 34, 74, etc).
 If more than 10 are found, stop early
 '''
 
-def find_multiples(start, end):
+def find_multiples_for(start, end):
     count = 0
     limit = 10
     numbers = []
@@ -24,7 +24,7 @@ def find_multiples(start, end):
     
     return count, numbers
 
-count, numbers = find_multiples(20, 100)   
+count, numbers = find_multiples_for(20, 100)   
 
 print(
     f"Multiples of 7 found: {count}"
@@ -32,7 +32,7 @@ print(
 )
 
 # while loop
-def find_multiples(start, end):
+def find_multiples_while(start, end):
     number = start
     count = 0
     limit = 10
@@ -54,9 +54,40 @@ def find_multiples(start, end):
         
     return count, numbers
 
-count, numbers = find_multiples(20, 100)
+count, numbers = find_multiples_while(20, 100)
 print(
     f"\nMultiples of 7 found: {count}"
     f"\nNumbers of multiples of 7 are: {numbers}"
 )
         
+# Adavnced version
+def find_multiples_while(start, end, division, skip_ends, n_limit):
+    n = start 
+    n_count = 0
+    nums_found = []
+    
+    while n <= end:
+        # Skip numbers ending in any digit from skip_ends
+        if n % 10 in skip_ends:
+            n += 1
+            continue
+        
+        # collect multiples of division
+        if n % division == 0:
+            n_count += 1
+            nums_found.append(n)
+            
+            # stop immediately once limit is reached 
+            if n_count >= n_limit:
+                break
+        
+        n += 1
+    
+    return n_count, nums_found
+
+# Example
+a, b = find_multiples_while(10, 120, division=5, skip_ends=(0,), n_limit=5)
+c, d = find_multiples_while(20, 100, division=3, skip_ends=(4,5), n_limit=10)
+
+print("\n", a, b)
+print("\n", c, d)
