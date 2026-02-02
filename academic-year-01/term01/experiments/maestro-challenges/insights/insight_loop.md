@@ -11,6 +11,7 @@ __________________________
 - Modulo is also used to filter number by divisibility
 - Example: filter number ending with 4
     - number % 10 == 4
+- % 10 checks the last digit of a number; == includes that digit, != excludes it.
 ____________________________
 
 **while loop**

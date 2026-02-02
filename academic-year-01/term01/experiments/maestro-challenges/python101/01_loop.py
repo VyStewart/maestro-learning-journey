@@ -7,7 +7,7 @@
 Task:
  Write a loop that counts how many multiples of 3 are 
  between two numbers, inclusive. (5 and 50 for example)
- if more t0 are found, stop early
+ if more than 10 are found, stop early
 """
 # for loop
 count = 0
