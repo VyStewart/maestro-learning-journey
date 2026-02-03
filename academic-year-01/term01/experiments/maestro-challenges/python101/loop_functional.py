@@ -58,36 +58,4 @@ count, numbers = find_multiples_while(20, 100)
 print(
     f"\nMultiples of 7 found: {count}"
     f"\nNumbers of multiples of 7 are: {numbers}"
-)
-        
-# Adavnced version
-def find_multiples_while(start, end, division, skip_ends, n_limit):
-    n = start 
-    n_count = 0
-    nums_found = []
-    
-    while n <= end:
-        # Skip numbers ending in any digit from skip_ends
-        if n % 10 in skip_ends:
-            n += 1
-            continue
-        
-        # collect multiples of division
-        if n % division == 0:
-            n_count += 1
-            nums_found.append(n)
-            
-            # stop immediately once limit is reached 
-            if n_count >= n_limit:
-                break
-        
-        n += 1
-    
-    return n_count, nums_found
-
-# Example
-a, b = find_multiples_while(10, 120, division=5, skip_ends=(0,), n_limit=5)
-c, d = find_multiples_while(20, 100, division=3, skip_ends=(4,5), n_limit=10)
-
-print("\n", a, b)
-print("\n", c, d)
+)       
