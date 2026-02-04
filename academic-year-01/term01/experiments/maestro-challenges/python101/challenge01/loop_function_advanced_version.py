@@ -5,7 +5,7 @@
 ## Loop & function 
 
 # Adavnced version
-def find_multiples(start, end, division, skip_ends, n_limit):
+def find_multiples_while(start, end, division, skip_ends, n_limit):
     n = start 
     n_count = 0
     nums_found = []
@@ -30,24 +30,27 @@ def find_multiples(start, end, division, skip_ends, n_limit):
     return n_count, nums_found
 
 # Example
-a, b = find_multiples(10, 120, division=5, skip_ends=(0,), n_limit=5)
-c, d = find_multiples(20, 100, division=3, skip_ends=(4,5), n_limit=10)
+a, b = find_multiples_while(10, 120, division=5, skip_ends=(0,), n_limit=5)
+c, d = find_multiples_while(20, 100, division=3, skip_ends=(4,5), n_limit=10)
 
 print("\n", a, b)
 print("\n", c, d)
 
 # Add guard clause to loop_function
-def finding_muiltiples(start, end, num_division, skip_ends, num_limit):
+def find_muiltiples(start, end, num_division, skip_ends, num_limit):
     
     # Add guard clause - stop bad input immadiately 
-    if min(start, end) <= 0:
-        return None, None
-    if num_division <= 0:
-        return None, None
-    if num_limit <= 0:
-        return None, None
+    if start <= 0 or end <= 0:
+        return None
+    
     if start > end:
-        return None, None
+        return None
+    
+    if num_division <= 0 or num_limit <= 0:
+        return None
+    
+    if not isinstance(skip_ends, tuple):
+        return None
     
     num_count = 0
     found_numbers = []
@@ -57,7 +60,7 @@ def finding_muiltiples(start, end, num_division, skip_ends, num_limit):
             continue
         
         if num % num_division == 0:
-            num_count +=1
+            num_count += 1
             found_numbers.append(num)
             
             if num_count >= num_limit:
@@ -66,20 +69,19 @@ def finding_muiltiples(start, end, num_division, skip_ends, num_limit):
     return num_count, found_numbers
 
 # Example
-result = finding_muiltiples(10, 400, 6, (8,), 10)
-num_count, found_count = result
+result = find_muiltiples(10, 400, 6, (8,), 10)
 
 if result is None:
     print("Invalid input. Input values must be >= 0")
 else:
-    print("\n", result)
+    c1, d1 = result
+    print("\n",c1, d1 )
 
 # test call   
-a1, b1 = finding_muiltiples(30, 200, 3, (9,3,), 10)
+test = find_muiltiples(30, 200, -3, (9,3,), 10)
 
-if a1 and b1 is None:
+if test is None:
     print("Invalid input. Input values must be >= 0")
 else:
-    print("\n", a1, b1)
-    
-
+    a1, b1 = test
+    print("\n", a1, b1)    
