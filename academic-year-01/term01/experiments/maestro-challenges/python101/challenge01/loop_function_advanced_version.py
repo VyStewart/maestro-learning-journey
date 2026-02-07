@@ -40,7 +40,7 @@ print("\n", c, d)
 def find_muiltiples(start, end, num_division, skip_ends, num_limit):
     
     # Add guard clause - stop bad input immadiately 
-    if start <= 0 or end <= 0:
+    if start < 0 or end <= 0:
         return None
     
     if start > end:
@@ -78,7 +78,7 @@ else:
     print("\n",c1, d1 )
 
 # test call   
-test = find_muiltiples(30, 200, -3, (9,3,), 10)
+test = find_muiltiples(0, 600, 3, (5,0,), 15)
 
 if test is None:
     print("Invalid input. Input values must be >= 0")
