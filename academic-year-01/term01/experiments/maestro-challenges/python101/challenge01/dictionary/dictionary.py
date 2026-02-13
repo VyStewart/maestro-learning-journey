@@ -19,17 +19,14 @@ scores = {
 
 passed_count = 0
 failed_count = 0
-passed_student = []
-failed_student = []
 
-for name, value in scores.items():
+
+for value in scores.values():
     if value >= 70:
         passed_count += 1
-        passed_student.append(name)
             
     else:
         failed_count += 1
-        failed_student.append(name)
                
 summary = {
     "pass": passed_count,
@@ -38,19 +35,4 @@ summary = {
 
 print(
     "Summary:", summary,
-    "\nPassed Student:", passed_student,
-    "\nFailed Student:", failed_student  
 )
-
-summary = {
-        "pass": {
-            "count": passed_count,
-            "students": passed_student
-        },
-        "fail": {
-            "count": failed_count,
-            "students": failed_student
-        }
-}
-
-print("Summary:", summary)
