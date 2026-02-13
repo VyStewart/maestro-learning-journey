@@ -1,4 +1,32 @@
-venv/
-.ipynb_checkpoints/
-__pycache__/
+
+# macOS
 .DS_Store
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# Testing / coverage
+.coverage
+htmlcov/
+
+# Logs
+*.log
+
+# OS
+Thumbs.db
+
+
