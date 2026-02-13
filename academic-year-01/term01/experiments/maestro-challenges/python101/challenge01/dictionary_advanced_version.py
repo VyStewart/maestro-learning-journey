@@ -7,7 +7,7 @@
 scores = {
     "Alice": 85,
     "Bob": 67,
-    "Carlar": 92,
+    "Carla": 92,
     "Dan": 58,
     "Eve": 76
 }
