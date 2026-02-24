@@ -16,15 +16,15 @@ def summarize_scores(scores, passing_score=70):
     failed_students = []
     
     if not isinstance(scores, dict):
-        raise TypeError("scores must be provied as dictionary")
+        raise TypeError("scores must be provided as dictionary")
+    
+    if not isinstance(passing_score, int):
+            raise TypeError("passing score must be interger")
     
     for name, value in scores.items():  
-        if not isinstance(value, int):
-            raise TypeError("score must be a number interger")
-        
-        if not isinstance(passing_score, int):
-            raise TypeError("passing score must be interger")
-        
+        if not isinstance(value, (int, float)):
+            raise TypeError("score must be interger")
+               
         if value >= passing_score:
             passed_students.append(name)    
         else:
