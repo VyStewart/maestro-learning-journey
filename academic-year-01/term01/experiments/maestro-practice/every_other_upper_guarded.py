@@ -9,7 +9,7 @@ It should return the same string but with every second character made upper
 
 def every_other_upper(text):
     """
-    Returns a new string with very second chacater uppercased.
+    Returns a new string with every second charater uppercased.
     
     Guard phase:
      - Raise ValueError if input is not a string.
@@ -21,7 +21,7 @@ def every_other_upper(text):
     if not isinstance(text, str):
         raise ValueError("Input must be a string.")
     if any(char.isdigit() for char in text):
-        raise ValueError("Input can not contain any didgits.")
+        raise ValueError("Input can not contain any digits.")
     
     result = ""
     
