@@ -4,6 +4,7 @@
 ### Date: Jan 05 2026
 
 Core Principle:
+
 Docstrings explain the purpose and intent of a function. While code shows how something works, docstrings explain why it exists.
 
 1. Role of Docstrings

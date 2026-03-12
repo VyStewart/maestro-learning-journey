@@ -4,6 +4,7 @@
 ### Date: Jan 05 2026
 
 Core Principle:
+
 Good naming makes code readable, predictable, and maintainable. Names are a form of communication between developers, including your future self.
 
 1. Noun-Based Variable Names
