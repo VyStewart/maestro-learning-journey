@@ -42,3 +42,14 @@ movies[4] = "Custome 4"
 
 print(movies)
 
+# Removing elements from arrays
+players = ["Ava", "Ben", "Josh", "Cara", "Marcus", "Dan", "Eli"]
+
+last_out = players.pop()
+first_out = players.pop(0)
+middle_out = players.pop(len(players) // 2)
+
+print(last_out)
+print(first_out)
+print(middle_out)
+print(players)

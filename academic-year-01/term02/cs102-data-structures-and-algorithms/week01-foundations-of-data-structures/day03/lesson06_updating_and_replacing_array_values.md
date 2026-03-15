@@ -1,9 +1,10 @@
 ### CS102 - Data structures & algorithms 
 ### Week 01 - Foundations of data structures
 ### Date: March 15 - 2026
-### lesson 06: Updating and replacing values
+### lesson 06: Updating and replacing array values
 
 Key ideas: updating list elements in Python
+- Any elements in a list can be modified using its index
  
 - A Python list is mutable → you can change its elements without creating a new list.
 
