@@ -53,3 +53,63 @@ print(last_out)
 print(first_out)
 print(middle_out)
 print(players)
+
+# Combined array operations in sequence 
+'''
+Take a playlist, remove one song, and return
+ 
+1.the removed song
+2.the updated playlist
+'''
+
+def remove_first_song(songs):
+    # work with song here
+    removed = songs.pop(0)
+    
+    return removed, songs
+
+playlist = ["Intro", "Skyline", "Midnight", "Outro"]
+removed, final_playlist = remove_first_song(playlist)
+
+print(removed)
+print(final_playlist)
+
+#  Access a song, update another, then remove one from the playlist.
+def edit_playlist(songs, access_index, update_index, new_title, remove_index):
+    """
+    Access a song, update another, then remove one from the playlist.
+
+    Steps:
+    1. Read the song at access_index (do not change it).
+    2. Change the title at update_index to new_title.
+    3. Remove the song at remove_index using pop().
+    4. Return the removed song and the final playlist.
+    """
+    # 1. access (just to show we can read it)
+    looked_at = songs[access_index]
+    print(f"Looked at: {looked_at}")
+
+    # 2. update
+    songs[update_index] = new_title
+
+    # 3. remove
+    removed_song = songs.pop(remove_index)
+
+    # 4. return two values (as a tuple)
+    return removed_song, songs
+
+
+playlist = ["Intro", "Skyline", "Midnight", "Outro"]
+
+removed, final_playlist = edit_playlist(
+    playlist,
+    access_index=1,            # look at "Skyline"
+    update_index=2,            # change "Midnight" -> "Midnight Remix"
+    new_title="Midnight Remix",
+    remove_index=0             # remove "Intro"
+)
+
+print("Removed:", removed)
+print("Final playlist:", final_playlist)
+
+    
