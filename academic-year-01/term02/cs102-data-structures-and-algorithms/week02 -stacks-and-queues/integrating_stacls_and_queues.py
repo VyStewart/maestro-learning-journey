@@ -19,7 +19,6 @@ print("\nAlice backpack:", backpack)
 
 
 # Example 2: Cave exploration with stacks and queues
-from collections import deque
 
 queue = deque(["Alice", "Bob", "Cara"])
 backpacks = {
@@ -53,7 +52,6 @@ print("\nQueue:", list(queue))
 print("\nUpdated backpacks:", backpacks)
 
 # Advanced: integrating stacks and queues using for _ in range loops
-from collections import deque
 
 queue = deque(["Alice", "Bob", "Cara"])
 backpacks = {
@@ -64,7 +62,7 @@ backpacks = {
 
 treasures = {
     "Alice": ("bag of gemstone"),
-    "Bob": ("devided sword"),
+    "Bob": ("divided sword"),
     "Cara": ("bag of gold")
 }
 
