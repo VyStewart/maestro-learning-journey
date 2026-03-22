@@ -28,26 +28,3 @@ while stack:
     print("\nPopped:", page)
 
 print("\nFinal stack:", stack)
-
-# Implementing queues wiht deques from the collections module
-from collections import deque
-
-ice_cream_line = deque()
-ice_cream_line.append("Damien")
-ice_cream_line.append("Marcus")
-ice_cream_line.append("Josh")
-ice_cream_line.append("Sunshine")
-
-served1 = ice_cream_line.popleft()
-print("\nServed:", served1)
-
-served2 = ice_cream_line.popleft()
-print("\nServed:", served2)
-
-served3 = ice_cream_line.popleft()
-print("\nServed:", served3)
-
-served4 = ice_cream_line.popleft()
-print("\nServed:", served4)
-
-print("\nFinal Line:", ice_cream_line)
