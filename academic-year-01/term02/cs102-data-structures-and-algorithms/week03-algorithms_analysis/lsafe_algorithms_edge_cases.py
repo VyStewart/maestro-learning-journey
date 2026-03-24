@@ -28,7 +28,7 @@ print(safe_average("abc"))            # wrong type
 print(safe_average(None))             # None
 
 
-# Sae algorithms and handling edge cases with negative numbers
+# Safe algorithms and handling edge cases with negative numbers
 def first_positive(numbers):
     if not isinstance(numbers, list):
         return None
