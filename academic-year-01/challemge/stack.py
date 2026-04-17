@@ -36,4 +36,4 @@ print(stack.pop())          # Output: apple
 print(stack.items)          # Output: ['banana']
 print(stack.pop())          # Output: banana
 print(stack.pop())          # Raises IndexError: Pop from an empty stack.
-print(stack.is_empty())    # Output: True
+print(stack.is_empty())     # Output: True
