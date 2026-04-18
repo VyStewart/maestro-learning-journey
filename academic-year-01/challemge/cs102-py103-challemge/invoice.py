@@ -1,5 +1,5 @@
 ### Maestro Challenge
-### Topic: Printing and Oragizing and simple invoice
+### Topic: Printing and Oragizing a imple invoice
 ### Date: April 16 - 2026
 
 '''
