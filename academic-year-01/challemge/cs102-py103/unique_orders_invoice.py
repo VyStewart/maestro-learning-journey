@@ -1,5 +1,5 @@
 ### Maestro Challenge
-### Topic: Uniques Orders Invoice wihout Duplicates using Stack
+### Topic: Uniques Orders Invoice without Duplicates using Stack
 ### Date: April 18 - 2026
 
 '''
@@ -43,7 +43,7 @@ orders = [
     }
 ]
 
-def find_duplicates(orders):
+def find_unique_orders(orders):
     seen_ids = set()
     unique_orders = []
 
@@ -54,7 +54,7 @@ def find_duplicates(orders):
 
     return unique_orders
 
-unique_orders = find_duplicates(orders)
+unique_orders = find_unique_orders(orders)
 print(unique_orders)
 
 class Stack:
@@ -73,7 +73,7 @@ class Stack:
     def is_empty(self):
         return len(self.items) == 0
 
-# Now push each order to the order list
+# Now push each unique order onto the stack
 stack = Stack()
 for order in unique_orders:
     stack.push(order)
