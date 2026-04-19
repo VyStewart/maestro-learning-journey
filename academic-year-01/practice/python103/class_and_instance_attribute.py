@@ -2,7 +2,6 @@
 ### Topic: Class and Instance Attributes
 ### Date: April 19 - 2026
 
-
 """
 Practice session to master key Python OOP concepts:
 - Understand difference between class and instance (object)
