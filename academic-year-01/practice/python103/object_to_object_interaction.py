@@ -1,4 +1,4 @@
-### Maestro Challenge
+### Maestro Practice
 ### Topic: Object to Object Interaction
 ### Date: April 19 - 2026
 
@@ -24,7 +24,7 @@ class Order:
     
     def announce_ready(self):
         """Announces that the order is ready."""
-        print(f"Hi, {self.customer_name} and your {self.drink} is ready.")
+        print(f"Hi {self.customer_name} and your {self.drink} is ready.")
 
 barista = Barista()
 order1 = Order()
