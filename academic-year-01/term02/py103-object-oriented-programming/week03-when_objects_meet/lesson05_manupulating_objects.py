@@ -65,4 +65,3 @@ for robot in robots:
 '''Average battery level:'''
 average_battery_level = total_battery_level // len(robots)
 print("Average battery level", average_battery_level)
-
