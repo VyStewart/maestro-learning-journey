@@ -1,5 +1,5 @@
 ### Course: Python 103 - Object-Oriented Programming
-### Week 09: From Simple Objects to Flexible Systems
+### Week 10: From Simple Objects to Flexible Systems
 ### Lesson 01: Encapsulation - protecting objects' state
 ### Date: May 10 - 2026
 
