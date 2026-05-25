@@ -1,5 +1,5 @@
 /// Course: FE 101  - Introduction to Modern JavaScript and TypeScript
-/// Week 02: From JavaScript Data & Logic
+/// Week 02: JavaScript Data & Logic
 /// Topic: Objects in JavaScript
 /// Date: May 23, 2026
 
