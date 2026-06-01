@@ -20,8 +20,7 @@ console.log("-".repeat(20)); // Separator for clarity
 // Example of a while loop
 let number = 10;
 
-while (number > 5) 
-    {
+while (number > 5) {
         console.log(number); // Output: 10, 9, 8, 7, 6
         number -= 1; // Increment the number
     }
