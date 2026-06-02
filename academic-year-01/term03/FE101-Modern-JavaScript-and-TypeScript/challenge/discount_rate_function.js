@@ -5,7 +5,14 @@
 
 // Create a function called discountRate that takes a price and a discount percentage, 
 // and returns the discounted price.
+
+// Then create a higher-order function called applyDiscount 
+// that takes an array of products and a discount function,
 const applyDiscount = (items, fn) => items.map(fn);
+
+//ceate a function called makeDiscount that takes a discount percentage and 
+// returns a function that applies that discount to a product object, 
+// returning a new product object with the discounted price.
 function makeDiscount(rate) {
     return product => ({
         ...product,
